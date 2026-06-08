@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-16T23:15:04 IST" name="Default suite" finished-at="2026-04-16T23:15:12 IST" duration-ms="7217">
+    <groups>
+    </groups>
+    <test started-at="2026-04-16T23:15:04 IST" name="Default test" finished-at="2026-04-16T23:15:12 IST" duration-ms="7217">
+      <class name="selenium.practice.BaseTest">
+        <test-method signature="luanchApp(java.lang.String,java.lang.String)[pri:0, instance:selenium.practice.BaseTest@15ff3e9e]" started-at="2026-04-16T23:15:04 IST" name="luanchApp" data-provider="userDetails" finished-at="2026-04-16T23:15:08 IST" duration-ms="3971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[salunke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApp -->
+        <test-method signature="luanchApp(java.lang.String,java.lang.String)[pri:0, instance:selenium.practice.BaseTest@15ff3e9e]" started-at="2026-04-16T23:15:08 IST" name="luanchApp" data-provider="userDetails" finished-at="2026-04-16T23:15:12 IST" duration-ms="3217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yadhavi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[salunke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApp -->
+      </class> <!-- selenium.practice.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
