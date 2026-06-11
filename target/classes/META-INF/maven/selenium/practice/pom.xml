@@ -76,6 +76,11 @@
         <includes>
           <include>**/baseTest.java</include>
         </includes>
+      
+    <redirectTestOutputToFile>false</redirectTestOutputToFile>
+    <forkCount>0</forkCount>
+    <useSystemClassLoader>true</useSystemClassLoader>
+  
         <!-- Or exclude specific tests -->
         <!--
         <excludes>
