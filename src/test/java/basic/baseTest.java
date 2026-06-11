@@ -39,6 +39,7 @@ public class baseTest {
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().back();
 		System.out.println(driver.getCurrentUrl());
+		System.out.flush();
 		driver.close();
 	   
 		
