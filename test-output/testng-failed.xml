@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.practice.AppTest">
+      <class name="basic.baseTest">
         <methods>
-          <include name="testInfo"/>
+          <include name="luanchApp"/>
         </methods>
-      </class> <!-- selenium.practice.AppTest -->
+      </class> <!-- basic.baseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
