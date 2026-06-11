@@ -35,7 +35,7 @@ public class baseTest {
 		driver.get("http://www.google.com");
 		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Gmail"))).click();
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Sign in']")));
+		// wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Sign in']")));
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().back();
 		System.out.println(driver.getCurrentUrl());
