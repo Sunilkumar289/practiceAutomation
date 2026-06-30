@@ -1,0 +1,17 @@
+{
+"customers":[
+              {
+  "firstName":"Sunilkumar",
+  "lastName":"Salunke",
+   "ID":"1"
+},
+{
+
+  "firstName":"Yadhavi",
+  "lastName":"Salunke",
+   "ID":"2"
+}
+
+]
+
+}
