@@ -29,7 +29,7 @@ public class baseTest {
 		options.addArguments("--disable-dev-shm-usage"); // avoids /dev/shm issues in Docker
 
 		WebDriver driver = new RemoteWebDriver(
-		    new URL("http://selenium-chrome:4444/wd/hub"),
+		    new URL("http://localhost:4444/wd/hub"),
 		    options
 		);
 		driver.get("http://www.google.com");
