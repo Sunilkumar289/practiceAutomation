@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic.baseTest">
+      <class name="basic.appTest">
         <methods>
           <include name="luanchApp"/>
         </methods>
-      </class> <!-- basic.baseTest -->
+      </class> <!-- basic.appTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
