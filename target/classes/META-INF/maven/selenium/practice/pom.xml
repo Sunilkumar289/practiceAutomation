@@ -74,7 +74,7 @@
       <configuration>
         <!-- Run only this test class -->
         <includes>
-          <include>**Test.java</include>
+          <include>**baseTest.java</include>
         </includes>
       
     <redirectTestOutputToFile>false</redirectTestOutputToFile>

@@ -14,7 +14,7 @@ import org.testng.asserts.SoftAssert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class appTest extends baseTest {
-	 WebDriver driver;
+	 
     
   @Test(dataProvider = "testjson" ,dataProviderClass = readJson.class)
   
