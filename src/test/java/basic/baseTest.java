@@ -29,7 +29,9 @@ public class baseTest {
             );
         } else {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver();
+            driver.get("https://www.google.com");
+            System.out.println(driver.getTitle());
         }
     }
 

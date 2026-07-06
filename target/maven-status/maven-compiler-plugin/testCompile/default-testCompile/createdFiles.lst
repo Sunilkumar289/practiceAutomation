@@ -1,6 +1,7 @@
-basic\appTest.class
-basic\excelUtility.class
+basic\faceTest.class
 basic\readJson.class
-basic\baseTest.class
 basic\excelUtility$1.class
 basic\testData.class
+basic\appTest.class
+basic\excelUtility.class
+basic\baseTest.class
