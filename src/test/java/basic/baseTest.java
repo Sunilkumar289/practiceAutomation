@@ -2,6 +2,9 @@ package basic;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,10 +12,13 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseTest {
     protected WebDriver driver;
+    private static final Logger logger = LogManager.getLogger(faceTest.class);
 
     @BeforeClass
     public void setUp() throws MalformedURLException, InterruptedException {
@@ -31,8 +37,8 @@ public class baseTest {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.get("https://www.google.com");
-            Thread.sleep(5000);
-            System.out.println(driver.getTitle());
+            String googleTitle =driver.getTitle();
+    		logger.info(googleTitle);
         }
     }
 
