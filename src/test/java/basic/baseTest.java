@@ -15,7 +15,7 @@ public class baseTest {
     protected WebDriver driver;
 
     @BeforeClass
-    public void setUp() throws MalformedURLException {
+    public void setUp() throws MalformedURLException, InterruptedException {
         String Execution = System.getProperty("execution", "local");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
@@ -31,6 +31,7 @@ public class baseTest {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.get("https://www.google.com");
+            Thread.sleep(5000);
             System.out.println(driver.getTitle());
         }
     }
