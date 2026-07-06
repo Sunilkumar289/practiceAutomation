@@ -18,8 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseTest {
     protected WebDriver driver;
-    private static final Logger logger = LogManager.getLogger(faceTest.class);
-
+    
     @BeforeClass
     public void setUp() throws MalformedURLException, InterruptedException {
         String Execution = System.getProperty("execution", "local");
@@ -38,7 +37,7 @@ public class baseTest {
             driver = new ChromeDriver();
             driver.get("https://www.google.com");
             String googleTitle =driver.getTitle();
-    		logger.info(googleTitle);
+    	
         }
     }
 
