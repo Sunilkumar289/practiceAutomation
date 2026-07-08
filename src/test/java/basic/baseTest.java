@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseTest {
+	 private static final Logger logger = LogManager.getLogger(baseTest.class);
     protected WebDriver driver;
     
     @BeforeClass
@@ -37,6 +38,7 @@ public class baseTest {
             driver = new ChromeDriver();
             driver.get("https://www.google.com");
             String googleTitle =driver.getTitle();
+            logger.info("google application is launched: {}",googleTitle );
     	
         }
     }

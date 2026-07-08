@@ -16,6 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class appTest extends baseTest {
 	 
     
+	
   @Test(dataProvider = "testjson" ,dataProviderClass = readJson.class)
   
   public void testInfo(String name,String lastName,String id) {

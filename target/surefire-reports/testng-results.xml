@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-07T00:03:32 IST" name="Surefire suite" finished-at="2026-07-07T00:03:40 IST" duration-ms="8535">
+  <suite started-at="2026-07-07T22:53:17 IST" name="Surefire suite" finished-at="2026-07-07T22:53:25 IST" duration-ms="8478">
     <groups>
     </groups>
-    <test started-at="2026-07-07T00:03:32 IST" name="Surefire test" finished-at="2026-07-07T00:03:40 IST" duration-ms="8535">
+    <test started-at="2026-07-07T22:53:17 IST" name="Surefire test" finished-at="2026-07-07T22:53:25 IST" duration-ms="8478">
       <class name="basic.faceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:basic.faceTest@7645e64]" started-at="2026-07-07T00:03:36 IST" name="setUp" finished-at="2026-07-07T00:03:38 IST" duration-ms="2067" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:basic.faceTest@45849604]" started-at="2026-07-07T22:53:22 IST" name="setUp" finished-at="2026-07-07T22:53:23 IST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="facebooklaunch()[pri:0, instance:basic.faceTest@7645e64]" started-at="2026-07-07T00:03:38 IST" name="facebooklaunch" finished-at="2026-07-07T00:03:40 IST" duration-ms="1851" status="PASS">
+        <test-method signature="facebooklaunch()[pri:0, instance:basic.faceTest@45849604]" started-at="2026-07-07T22:53:23 IST" name="facebooklaunch" finished-at="2026-07-07T22:53:25 IST" duration-ms="1708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebooklaunch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:basic.faceTest@7645e64]" started-at="2026-07-07T00:03:40 IST" name="tearDown" finished-at="2026-07-07T00:03:40 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basic.faceTest@45849604]" started-at="2026-07-07T22:53:25 IST" name="tearDown" finished-at="2026-07-07T22:53:25 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- basic.faceTest -->
       <class name="basic.appTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:basic.appTest@350d26f3]" started-at="2026-07-07T00:03:32 IST" name="setUp" finished-at="2026-07-07T00:03:35 IST" duration-ms="3305" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:basic.appTest@65ad2b42]" started-at="2026-07-07T22:53:17 IST" name="setUp" finished-at="2026-07-07T22:53:21 IST" duration-ms="4422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInfo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:basic.appTest@350d26f3]" started-at="2026-07-07T00:03:35 IST" name="testInfo" data-provider="testjson" finished-at="2026-07-07T00:03:35 IST" duration-ms="6" status="PASS">
+        <test-method signature="testInfo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:basic.appTest@65ad2b42]" started-at="2026-07-07T22:53:22 IST" name="testInfo" data-provider="testjson" finished-at="2026-07-07T22:53:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfo -->
-        <test-method signature="testInfo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:basic.appTest@350d26f3]" started-at="2026-07-07T00:03:35 IST" name="testInfo" data-provider="testjson" finished-at="2026-07-07T00:03:35 IST" duration-ms="5" status="PASS">
+        <test-method signature="testInfo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:basic.appTest@65ad2b42]" started-at="2026-07-07T22:53:22 IST" name="testInfo" data-provider="testjson" finished-at="2026-07-07T22:53:22 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:basic.appTest@350d26f3]" started-at="2026-07-07T00:03:35 IST" name="tearDown" finished-at="2026-07-07T00:03:36 IST" duration-ms="616" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basic.appTest@65ad2b42]" started-at="2026-07-07T22:53:22 IST" name="tearDown" finished-at="2026-07-07T22:53:22 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
