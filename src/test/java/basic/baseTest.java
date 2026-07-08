@@ -33,14 +33,14 @@ public class baseTest {
                 new URL("http://selenium-chrome:4444/wd/hub"),
                 options
             );
+            
         } else {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-            driver.get("https://www.google.com");
-            String googleTitle =driver.getTitle();
-            logger.info("google application is launched: {}",googleTitle );
-    	
-        }
+            }
+        driver.get("https://www.google.com");
+        String googleTitle =driver.getTitle();
+        logger.info("google application is launched: {}",googleTitle );
     }
 
     @AfterClass
