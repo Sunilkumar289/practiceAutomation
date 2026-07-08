@@ -40,7 +40,7 @@ public class baseTest {
             }
         driver.get("https://www.google.com");
         String googleTitle =driver.getTitle();
-       // logger.info("google application is launched: {}",googleTitle );
+        logger.info("google application is launched: {}",googleTitle );
     }
 
     @AfterClass
