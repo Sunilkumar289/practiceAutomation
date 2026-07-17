@@ -2,17 +2,28 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+      stage('Checkout') {
             steps {
                 checkout scm
             }
         }
-
-        stage('Build & Test') {
+        parallel{
+        
+         stage('Build & Test') {
             steps {
                 sh 'mvn clean test -Dexecution=remote'
             }
         }
+        stage('print log') {
+            steps {
+                sh '''
+                   echo 'hello world'
+                   '''
+            }
+        }
+    }
+     
+       
     }
 
     post {
